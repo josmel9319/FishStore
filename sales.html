@@ -1,0 +1,75 @@
+<html>
+<head>
+<!--
+
+	Author: Joshua Meleshenko
+	Date: 12/1/2017
+	
+	FileName: home.html
+	Supporting Files:
+	
+-->
+<link href="fish.css" rel="stylesheet" type="text/css"/>
+<style>
+p{font-size:4em;background-color:black;color:white;text-align:center;}
+
+</style>
+
+</head>
+
+<body>
+<div id="pageContent">
+<h2>REEF TANK <i>Since</i> the beginning of time&reg</h2>
+
+<div>
+	<img src="logo.png" alt="logo" width="300pt" height="150pt" usemap="">
+	<map id="" name="">
+	<area shape="default" coords="" href="" alt="">
+</div>
+<div id="slideShow" >
+	<img class="mySlides" src="slideShowImageOne.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageTwo.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageThree.png" height="215px" width="700px">
+</div>
+
+<script> 
+		var slideIndex = 0;
+		carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+</script>
+
+<div id="heading">
+	<ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="tanks.html">Tanks</a></li>
+		 <li><a href="hours.html">Hours</a></li>
+         <li><a href="sales.html">Sales</a></li>
+	</ul>
+<hr/>
+<p>
+</p>
+<hr/>
+</div>
+<p>Page Coming Soon!</p>
+<p>Coral and Fish will be for sale</p>
+<hr/>
+<address>
+		 Coral Life &#183; 
+         123 Coral Lane &#183;
+         Ocean, Ocean 55555 &#183;
+         (555) 555 - 5555 &#183;
+		 <a href = "mailto: abc@example.com">Email Me</a>
+</address>
+</body>
+</html>

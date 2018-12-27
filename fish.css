@@ -1,0 +1,39 @@
+#pageContent 		   {margin:auto; background-color:black;color:white;width: 1150px; top: 55px; left: 20px}
+			 
+
+b                      {color:yellow}
+
+#heading ul            {list-style-type: none; margin: 0px; padding: 0px}
+#heading ul li         {display: inline; font-size: 1.5em; 
+                        font-family: 'Courier New', monospace;
+                        background-color:red;
+                        padding: 0px 10px; margin: 0px}
+
+h2                     {color:blue;font-size: 1.1em; padding: 5px 0px 5px 12px; margin: 0px}
+
+h3					   {color:blue;font-family:"Comic Sans MS", cursive, sans-serif;padding-left: .5cm;}
+
+address                {font-size: 1em; font-style: normal; text-align: center;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                        color: white; background-color:red;
+                        margin: 20px 0px}
+						
+						
+hr                     {border: 3px dotted #0099CC}
+						
+						
+table.schedule{border:10px outset #ff0000;border-collapse:collapse;font-family:Arial, Helvetica; font-size:0.7em; width:100%}
+table.schedule th,table.schedule td{border:1px solid gray}
+table.schedule thead{color:#035096; background-color:#ffcccc}
+table.schedule col.firstcol {background-color:#3ECAE8; width:7%}
+table.schedule thead tr {height:20px}
+table.schedule thead tr {height:30px}
+table.schedule tbody td {vertical-align:top;padding:5px}
+table.schedule caption {caption-side: top; text-align:right}
+
+#slideshow             {position: absolute;top: 8px;right: 200px;}
+    
+    
+    
+    
+    

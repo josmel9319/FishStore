@@ -1,0 +1,116 @@
+<html>
+<head>
+<!--
+
+	Author: Joshua Meleshenko
+	Date: 12/1/2017
+	
+	FileName: home.html
+	Supporting Files:
+	
+-->
+<link  href="fish.css" rel="stylesheet" type="text/css"/>
+<style>
+
+</style>
+
+</head>
+
+<body>
+<div id="pageContent">
+<h2>REEF TANK <i>Since</i> the beginning of time&reg</h2>
+
+<div>
+	<img src="logo.png" alt="logo" width="300pt" height="150pt" usemap="">
+	<map id="" name="">
+	<area shape="default" coords="" href="" alt="">
+</div>
+<div id="slideShow" >
+	<img class="mySlides" src="slideShowImageOne.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageTwo.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageThree.png" height="215px" width="700px">
+</div>
+
+<script> 
+		var slideIndex = 0;
+		carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+</script>
+
+<div id="heading">
+	<ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="tanks.html">Tanks</a></li>
+		 <li><a href="hours.html">Hours</a></li>
+         <li><a href="sales.html">Sales</a></li>
+	</ul>
+<hr/>
+<div>
+<h3>Corals</h3>
+<p>
+We carry a wide variety of corals big and small and an ever changing supply so there is always something new to discover. 
+We take our work seriously and every new arrival is cleaned and dipped with a meticulous eye.
+</p>
+<h3>Saltwater Fish</h3>
+<p>
+Fish are what make an aquarium entertaining.  Some fish are for show, and some can actually help you keep your tank clean and healthy. 
+Every saltwater aquarium runs best with a healthy ecosystem consisting of many living creatures that work as a whole
+</p>
+<h3>Aquarium Supplies</h3>
+<p>
+We take pride in our large selection of supplements, food, accessories and even hardware! 
+You will be surprised to see how many supplies we keep <b>IN STOCK</b>
+</p>
+</div>
+<hr/>
+<p style="text-align:center;font-size:120%;color:#FF8300">Hour of operation<p>
+<table class="schedule" border="1" cellspacing="3" cellpadding="5" style="color:white">
+<caption>Eastern Time</caption> 
+<colgroup>
+		<col class="firstcol" />
+</colgroup>
+	<thead>
+	    <tr>
+			<th style="color:#3ECAE8">Time</th>			
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+			<th>Sunday</th>
+		</tr>
+	</thead>
+	<tbody>
+			<th style="color:black">11:00-6:00</th>			
+			<th>Open</th>
+			<th>Closed</th>
+			<th>Open</th>
+			<th>Open</th>
+			<th>Open</th>
+			<th>Open</th>
+			<th>Open</th>
+	</tbody>
+</table>	  
+<hr/>
+<address>
+		 Coral Life &#183; 
+         123 Coral Lane &#183;
+         Ocean, Ocean 55555 &#183;
+         (555) 555 - 5555 &#183;
+		 <a href = "mailto: abc@example.com">Email Me</a>
+</address>	
+</div>
+</body>
+</html>

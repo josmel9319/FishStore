@@ -1,0 +1,105 @@
+<html>
+<head>
+<!--
+
+	Author: Joshua Meleshenko
+	Date: 12/1/2017
+	
+	FileName: home.html
+	Supporting Files:
+	
+-->
+<link href="fish.css" rel="stylesheet" type="text/css"/>
+<style>
+<!--#pageContent{background-color:black;
+			 color:white;
+}
+b{color:yellow}
+
+#heading ul            {list-style-type: none; margin: 0px; padding: 0px}
+#heading ul li         {display: inline; font-size: 1.5em; 
+                        font-family: 'Courier New', monospace;
+                        background-color:red;
+                        padding: 0px 10px; margin: 0px}
+
+h2                     {color:blue;font-size: 1.1em; padding: 5px 0px 5px 12px; margin: 0px}
+-->
+
+</style>
+
+</head>
+
+<body>
+<div id="pageContent">
+<h2>REEF TANK <i>Since</i> the beginning of time&reg</h2>
+
+<div>
+	<img src="logo.png" alt="logo" width="300pt" height="150pt" usemap="">
+	<map id="" name="">
+	<area shape="default" coords="" href="" alt="">
+</div>
+<div id="slideShow" >
+	<img class="mySlides" src="slideShowImageOne.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageTwo.png" height="215px" width="700px">
+	<img class="mySlides" src="slideShowImageThree.png" height="215px" width="700px">
+</div>
+
+<script> 
+		var slideIndex = 0;
+		carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+</script>
+<div id="heading">						
+	<ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="tanks.html">Tanks</a></li>
+		 <li><a href="hours.html">Hours</a></li>
+         <li><a href="sales.html">Sales</a></li>
+	</ul>
+
+</div>
+<hr/>
+<p> <b>Coral reef</b> fish are fish which live amongst or in close relation to coral reefs. 
+Coral reefs form complex ecosystems with tremendous biodiversity. Among the myriad inhabitants, 
+the fish stand out as colourful and interesting to watch. Hundreds of species can exist in a small area of a healthy reef, 
+many of them hidden or well camouflaged. Reef fish have developed many ingenious specialisations adapted to survival on the reefs.
+</p>
+<hr/>
+	<img src="9fish.png" alt="fish"  style="" usemap="fish">
+	<map id="#fish" name="fish">
+	<area shape="rect" coords="0,0,380,215" href="https://en.wikipedia.org/wiki/Yellow_tang" alt="yellowTang" target="window" title="Yellow tang">
+	<area shape="rect" coords="380,0,755,215" href="https://en.wikipedia.org/wiki/Triggerfish" alt="trigger" target="window" title="Triggerfish">
+	<area shape="rect" coords="756,0,1135,215" href="https://en.wikipedia.org/wiki/Paracanthurus" alt="hippo" target="window" title="Blue Hippo">
+	<area shape="rect" coords="0,215,380,420" href="https://en.wikipedia.org/wiki/Pterois" alt="lion" target="window" title="Lion Fish">
+	<area shape="rect" coords="380,215,755,420" href="https://en.wikipedia.org/wiki/Amphiprioninae" alt="clown" target="window" title="Clown Fish">
+	<area shape="rect" coords="755,215,1135,420" href="https://en.wikipedia.org/wiki/Gomphosus_varius" alt="bird" target="window" title="Bird Wrasse">
+	<area shape="rect" coords="0,420,380,630" href="https://en.wikipedia.org/wiki/Copperband_butterflyfish" alt="butterfly" target="window" title="Butterfly">
+	<area shape="rect" coords="380,420,755,630" href="https://en.wikipedia.org/wiki/Royal_gramma" alt="royal" target="window" title="Royal Gramma">
+	<area shape="rect" coords="755,420,1135,630" href="https://en.wikipedia.org/wiki/Moray_eel" alt="ell" target="window" title="Moray eel">
+<p style="font-size:24pt;text-align: center;">
+Click on a fish! Try it out
+</p>
+<hr width="" style="border: 3px dotted #0099CC"size="4">
+
+
+<address>
+		 Coral Life &#183; 
+         123 Coral Lane &#183;
+         Ocean, Ocean 55555 &#183;
+         (555) 555 - 5555 &#183;
+		 <a href = "mailto: abc@example.com">Email Me</a>
+</address>
+</div>
+</body>
+</html>
